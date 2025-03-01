@@ -204,7 +204,7 @@ int main() {
     int k = 3;
     int numPairs = 100;
 
-    std::vector<std::string> words = readFileInChunks("words1.txt", 4096);
+    std::vector<std::string> words = readFileInChunks("words.txt", 4096);
     auto graph = buildGraph(words);
     auto pairs = findRandomPairs(graph, numPairs, k);
 

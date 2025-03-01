@@ -115,7 +115,7 @@ std::vector<std::pair<std::string, std::string>> findRandomPairsWithLevenshteinD
 
 
 int main() {
-    const std::string filePath = "words2.txt";
+    const std::string filePath = "dictionary.txt";
     const size_t bufferSize = 4096;
     const size_t numPairs = 100;
     const int distance = 7;
